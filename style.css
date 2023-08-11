@@ -1,0 +1,331 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: 'Josefin Sans',sans-serif;
+    box-sizing: border-box;
+
+}
+body{
+  background-color: #000000;
+    margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;}
+.avatar{
+    position: absolute;
+    background-color: rgb(109, 137, 137);
+    width: 40px;
+    height: 40px;
+    left:10.50%;
+    top: 1.5%;
+}
+a{
+  color: rgb(68, 249, 17);
+}
+
+
+.top-container{
+   background-color: #000000;
+    height:100vh;
+    width:100%;
+    background-size: cover;
+    background-position: center;
+}
+.mid-container {
+  margin: 100px 0;
+ 
+}
+  .bottom-container {
+    background-color: #1cf7ff;
+    padding: 70px 0 20px;
+  }  
+  nav{
+   display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-left: 8%;
+    padding-bottom: 15px;
+    padding-right: 8%;
+    background-color: #ffff00;
+
+}
+.logo{
+    color:rgb(0, 0, 0);
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+span{
+    color:red;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+nav ul li a{
+    color: rgb(10, 14, 9);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+nav ul li a:hover{
+    color:rgb(255, 0, 0);
+    transition: .4s;
+}
+.btn{
+    background-color: rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+}
+
+.btn:hover{
+    transform: scale(1.2,1.2);
+}
+.links{
+    text-decoration: none;
+}
+.links:hover{
+    text-decoration: none;
+    color: red;
+}
+.links1 {
+   
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #1e8ed4);
+    background-image: -moz-linear-gradient(top, #3498db, #1e8ed4);
+    background-image: -ms-linear-gradient(top, #3498db, #1e8ed4);
+    background-image: -o-linear-gradient(top, #3498db, #1e8ed4);
+    background-image: linear-gradient(to bottom, #3498db, #1e8ed4);
+    -webkit-border-radius: 59;
+    -moz-border-radius: 59;
+    border-radius: 59px;
+    -webkit-box-shadow: 5px 3px 7px #332d33;
+    -moz-box-shadow: 5px 3px 7px #332d33;
+    box-shadow: 5px 3px 7px #332d33;
+    font-family: Georgia;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    
+  }
+.links1:hover {
+    background: #ffeb0b;
+    color:#000000;
+    text-decoration: none;
+  }
+.content{
+    position:absolute;
+    top:40%;
+    left: 550px;
+    transform: translate(-40%);
+}
+.skills-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+  }
+  .css-img{
+    height: auto;
+    width:40%;
+    float: right;
+    margin-right:100px;
+    margin-left: 10px;
+  }
+  .python-img {
+    height: fit-content;
+    width: 35%;
+    float: right;
+   margin-right: 70px;
+  }
+  .c-img {
+    height: auto;
+    width: 35%;
+    float: right;
+    margin-right: 100px;
+  }
+  
+  .dsa-img {
+    
+    left: 30px;
+    height: auto;
+    width: 45%;
+    float: right;
+    margin-left: 70px;
+  }
+  .education-image{
+    float: right;
+    width: 46%;
+    margin-top: 100px;
+    margin-left: 30px;
+  }
+.project-row {
+    height: auto;
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+  }
+h1{
+    color: rgb(255, 255, 255);
+    margin:20px 0px 20px ;
+    font-size:50px;
+    font-family: 'Sacramento', cursive;
+ 
+
+}
+h2{
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+}
+h3{
+    color: #ff7300;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 50px;
+}
+h4{
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+p{ font-family: 'Inconsolata', monospace;
+    line-height:1.5;
+    margin-top:0px;
+    font-size: 30px;
+    text-align: left;
+    color: #ffffff;
+  }
+td{
+    text-align: center;
+}
+img{
+   height: 400px;
+   width: 400px;
+ border-radius: 60%;
+    position: relative;
+    left: 250px;
+}
+.heading,h2{
+    text-align: center;
+}
+.miniheading{
+    color:rgb(255, 250, 250);
+
+}
+
+
+.hr{
+        border: dotted rgb(217, 212, 212) 8px;
+        border-bottom: none;
+        width: 4%;
+        margin: 100px auto 20px auto;
+      
+}
+.contact{
+    padding: 0px 0px 40px 0px;
+}
+.btn1 {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn1:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+  
+  .copyright {
+    color: #000000;
+    font-size: 0.75rem;
+    text-align: center;
+    line-height: 3px;
+    padding: 20px 0;
+  }
+  .linkedin{
+    position: relative;
+   bottom: 5px;
+    left: 0%;
+    height: 40px;
+    width:40px;
+  }
+  .github{
+    position: relative;
+  left:0%;
+  bottom:5px;
+    height: 40px;
+    width: 40px;
+  }
+  .profile{
+    height: 350px;
+    width: 350px;
+    border-style: double;
+    border-width: 2px;
+   border-radius: 60%;
+  float:right;  
+    
+ }
+ .btn4 {
+  -webkit-border-radius: 12;
+  -moz-border-radius: 12;
+  border-radius: 12px;
+  font-family: Georgia;
+  color: #000000;
+  font-size: 20px;
+  background: #e6ff29;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn4:hover {
+  background: #ff0000;
+  text-decoration: none;
+}
+img{
+  transition: transform .4s;
+}
+img:hover{
+  transform: scale(1.2,1.2);
+}
+video{
+  width:100%;
+  height: 90%;
+}
+#About{
+  background: url(https://th.bing.com/th/id/OIP.OylHzYeTN67pzljy0Mrt2AHaEK?pid=ImgDet&w=1920&h=1080&rs=1);
+  height: 100%;
+  width: 100%;
+}
+#Skills{
+  background:url(https://monsterdesignstudios.com/wp-content/uploads/2014/09/website-design-slider-background-stockton.jpg);
+  width: 100%;
+  height: 100%;
+}
+#Projects{
+  background: url(https://images.freecreatives.com/wp-content/uploads/2016/04/Solid-Black-Website-Background.jpg);
+  height: 100%;
+}
